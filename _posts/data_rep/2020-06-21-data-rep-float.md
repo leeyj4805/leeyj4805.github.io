@@ -1,14 +1,13 @@
 ---
-title: "Data Representation - Floating Point Numbers"
-subtitle: "「数据表示」浮点数"
+title: "프로그래밍 시작하기"
+subtitle: "파이썬 입문"
 layout: post
 author: "Hux"
 header-style: text
 tags:
-  - 笔记
-  - 基础
-  - C
-  - C++
+  - Python
+  - 딥러닝
+  - 데이터 분석
 ---
 
 In the last episode we talked about the data representation of integer, a kind
