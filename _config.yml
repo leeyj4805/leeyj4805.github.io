@@ -4,7 +4,7 @@ SEOTitle: Bingo blog
 header-img: img/home-bg.jpg
 email: huxpro@gmail.com
 description: "blog"
-baseurl: "https://leeyj4805.github.io/"  # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: "https://leeyj4805.github.io"  # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
 future: true
