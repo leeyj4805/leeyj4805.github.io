@@ -9,25 +9,61 @@ tags:
   - 딥러닝
   - 데이터 분석
 ---
-프로그래밍 언어의 개념
--------------
-<p>
-(1) 프로그램은 컴퓨터로 수행할 수 있는 <b>명령어들의 집합</b>이며 프로그래밍 언어는 프로그램을 작성하는 언어를 말합니다.<br>
-(2) 사람이 컴퓨터가 이해하는 <b>기계어(0,1)</b>를 사용하여 프로그램을 만드는 것은 너무 어렵기 때문에 비교적 쉬운 언어를 이용하는데 이를 <b>프로그래밍 언어<b>라 합니다.
-</p>
+<!-- 정리 텍스트 -->
+In the last episode we talked about the data representation of integer, a kind
+of fixed-point numbers. Today we're going to learn about floating-point numbers. 
 
-교육용 프로그래밍 언어
--------------
+Floating-point numbers are used to _approximate_ real numbers. Because of the 
+fact that all the stuffs in computers are, eventually, just a limited sequence 
+of bits. The representation of floating-point number had to made trade-offs 
+between _ranges_ and _precision_.
 
-<p>
-(1) 교육용 프로그래핑 언어 : 전문 프로그래머가 아니더라도 쉽게 프로그램을 작성할 수 있는 프로그래밍 언어 <br>
-(2) 언어의 종류에는 스크래치와 파이썬이 있다.
-</p>
+Due to its computational complexities, CPU also have a dedicated set of 
+instructions to accelerate on floating-point arithmetics. 
+<!-- 정리 텍스트 end -->
 
-번역 프로그램
+Terminologies
 -------------
 
-<p>
-(1) 번역 프로그램 :  프로그래밍 언어로 작성한 <b>명령문<<br>
-(2) 언어의 종류에는 스크래치와 파이썬이 있다.
-</p>
+
+The terminologies of floating-point number is coming from the 
+[_scientific notation_](https://en.wikipedia.org/wiki/Scientific_notation), 
+where a real number can be represented as such:
+
+<!-- code -->
+```
+1.2345 = 12345 × 10 ** -4
+         -----   --    --
+  significand^   ^base  ^exponent
+```
+<!-- code end-->
+
+<!-- code scroll -->
+```cpp
+       (8 bits)             (23 bits)
+sign   exponent             fraction 
+  0   011 1111 1    000 0000 0000 0000 0000 0000
+
+ 31   30 .... 23    22 ....................... 0
+```
+<!-- code scroll end-->
+
+- _significand_, or _mantissa_, 有效数字, 尾数
+- _base_, or _radix_ 底数
+- _exponent_, 幂
+
+So where is the _floating point_? It's the `.` of `1.2345`. Imaging the dot
+can be float to the left by one to make the representation `.12345`.
+
+The dot is called _radix point_, because to us it's seem to be a _decimal point_,
+but it's really a _binary point_ in the computers.
+
+Now it becomes clear that, to represent a floating-point number in computers,
+we will simply assign some bits for _significand_ and some for _exponent_, and
+potentially a bit for _sign_ and that's it.
+
+References
+----------
+
+- <https://en.wikipedia.org/wiki/Floating-point_arithmetic>
+- <https://www3.ntu.edu.sg/home/ehchua/programming/java/datarepresentation.html>
