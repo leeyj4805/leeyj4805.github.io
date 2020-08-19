@@ -52,8 +52,6 @@
 ## DevOps
 - 장점 적는 란
 
-
-
 # 활동
 * [aaa](https://drive.google.com/), aaaaa
 
