@@ -4,7 +4,7 @@
 
 * 이유진
 * Email : leeyj4805@naver.com
-* Github : [github.com/seokju-na](https://github.com/seokju-na)
+* Github : [github.com/leeyj4805/](https://github.com/leeyj4805/)
 
 
 # 경력
