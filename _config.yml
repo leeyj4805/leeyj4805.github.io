@@ -93,3 +93,5 @@ service-worker: true
 page-mathjax: false
 
 
+
+theme: jekyll-theme-slate
