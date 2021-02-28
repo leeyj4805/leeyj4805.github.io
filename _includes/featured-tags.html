@@ -7,8 +7,8 @@
     {% if include.bottom %}
         <hr class="hidden-sm hidden-xs">
     {% endif %}
-    <h5><a href="{{'/archive/' | prepend: site.baseurl }}">FEATURED TAGS</a></h5>
-    <div class="tags">
+    <!--h5><a href="{{'/archive/' | prepend: site.baseurl }}">FEATURED TAGS</a></h5-->
+    <!--div class="tags">
         {% capture tags %}
         {% comment %}
             there must be no space between for and if otherwise this tricky sort won't work.
@@ -23,6 +23,6 @@
         {% endif %}{% endfor %}
         {% endcapture %}
         {{ tags | split:'__SEPARATOR__' | sort }}
-    </div>
+    </div-->
 </section>
 {% endif %}
