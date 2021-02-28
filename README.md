@@ -18,7 +18,7 @@
 - JavaScript(ES6+) 언어로 작성하였으며 AngularJS 프레임워크 사용
 
 # 🚀보유 기술 및 사용도구
-##🥇 웹 프론트엔드
+## 웹 프론트엔드
 
 <img alt="typescript" src="https://user-images.githubusercontent.com/13250888/53627369-a2059780-3c4b-11e9-88c2-58a7bd4a04e5.png" width="32" height="32"/> <img alt="javascript" src="https://user-images.githubusercontent.com/13250888/53627364-a16d0100-3c4b-11e9-84e2-a8c2f7311695.png" width="32" height="32"/> <img alt="react" src="https://user-images.githubusercontent.com/13250888/62798586-90d58680-bb19-11e9-9a82-9762725abede.png" width="32" height="32"/> <img alt="angular" src="https://user-images.githubusercontent.com/13250888/53627361-a16d0100-3c4b-11e9-97ee-8c87c15bf9a3.png" width="32" height="32"/> <img alt="rxjs" src="https://user-images.githubusercontent.com/13250888/53627366-a2059780-3c4b-11e9-8587-d959ed1e7119.png" width="32" height="32"/> <img alt="html5" src="https://user-images.githubusercontent.com/13250888/53627363-a16d0100-3c4b-11e9-8238-56153fb041e4.png" width="32" height="32"/> <img src="https://user-images.githubusercontent.com/13250888/53627368-a2059780-3c4b-11e9-95e3-9058d6a8afc7.png" alt="sass" width="32" height="32"/> <img alt="jest" src="https://user-images.githubusercontent.com/13250888/53627686-746d1e00-3c4c-11e9-9ec3-dd2398af09d2.png" width="32" height="32"/> <img alt="karma" src="https://user-images.githubusercontent.com/13250888/53627688-746d1e00-3c4c-11e9-8853-9a63d2cd989a.png" height="32"/> <img alt="nodejs" src="https://user-images.githubusercontent.com/13250888/53627689-7505b480-3c4c-11e9-9386-1656f03bb3d7.png" width="32" height="32" />
 
