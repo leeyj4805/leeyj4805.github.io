@@ -1694,3 +1694,14 @@ img::-moz-selection {
 .no-scroll {
   overflow-y: hidden;
 }
+.contants{
+    display: inline-block;
+    margin-left: -60px;
+}
+.contants a {
+  border: 1px solid #ddd;
+  border-radius: 30px;
+}
+.title{
+  text-align: center;
+}
