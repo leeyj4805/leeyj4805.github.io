@@ -1698,10 +1698,6 @@ img::-moz-selection {
     display: inline-block;
     margin-left: -60px;
 }
-.contants a {
-  border: 1px solid #ddd;
-  border-radius: 30px;
-}
 .title{
   text-align: center;
 }
